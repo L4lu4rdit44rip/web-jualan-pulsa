@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #47B5FF;
+    font-family: Cambria,'Quicksand', sans-serif;
+    font-size: 50%;
+}
+
+header{
+    display: inline;
+    width: fit-content;
+}
+nav{
+    padding: 20px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 1.2vw;
+    background-color: #256D85;
+    font-weight: bold;
+}
+nav a{
+    font-size: 2vw;
+    font-weight: 400;
+    text-decoration: none;
+    color:#ffffff;
+}
+nav a:hover{  
+    font-weight: bold;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+.content{
+    min-width: 400px;
+
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.cover{
+    max-height: 100%;   
+    position: relative;
+}
+.gambar-cover{
+    object-fit: fill;
+    object-position: center;
+    height: 868px;
+    width: 100%;
+    position: relative;
+}
+
+.isiPertama{
+    width: 100%;   
+}
+.isiKedua{
+    padding: 10px;
+    width: 100%;
+}
+.judul-content{
+    width: 40%;
+    height: 150px;
+    font-size: 3vw;
+    position: absolute;
+    left: 30.5%;
+    top: 6.5%;
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 4px;
+}
+.judul-content h1{
+    color: #000000;
+    width: 100%;
+    letter-spacing: 6%;
+    font-weight: 2em;
+}
+#About{
+    text-indent: 1em;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    
+}
+.isiKetiga{
+    padding: 10px;
+    box-shadow: 5px 5px 6px 1px rgba(0,0,0,0.2);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.artikel{
+    padding: 20px;
+    margin-top: 20px 10px;
+    font-size: 1.2vw;
+}
+.artikel p{
+    text-indent: 3em;
+}
+.artikel h2{
+    text-indent: 1em;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.layanan-content{   
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+#layanan{
+    line-height: 2em;
+    word-spacing: 1em;
+    letter-spacing: 0.2em;
+    width: 100%;
+    font-size: 1.7vw;
+}
+#layanan h2{
+    font-size: 2vw;
+}
+#layanan ol{
+    text-align: center;
+    list-style-type: none;
+}
+#layanan hr{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    border-radius: 5px;
+    size: 5px;
+}
+
+.isiKeempat{
+    padding: 10px;
+    width: 100%;
+    
+}
+.profil header{
+    text-align: center;
+}
+.profil img{
+    width: 10vw;
+}
+aside{
+    width: 100%;
+    padding-left: 20px;
+
+}
+.profil{
+    box-shadow: 5px 5px 6px 1px rgba(0,0,0,0.2);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 1.2vw;
+}
+.profil table{
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 1.2vw;
+    background-color: #256D85;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 320px){
+    .gambar-cover{
+        width: 100%;
+        height: 75%;
+
+    }
+}
+@media screen and (max-width: 1000px){
+    .gambar-cover{
+        width: 100%;
+        height: 75%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .gambar-cover{
+        width: 100%;
+        height: 85%;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .gambar-cover{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
