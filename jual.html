@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styleJual.css">
+    <title>Web Jualan</title>
+</head>
+
+<body>
+    <script src="tugas.js"></script>
+    <header>
+        <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+          </ul>
+      </nav>
+      </header>
+    <h1>Pilih Menu</h1>
+    <div class="menu">
+        <form class="awal">
+            <input type="checkbox" class="checkbox" id="pulsa" onclick="clikP()">
+            Pulsa<select id="pulsaH" class="p-none">
+                <option type="text" value="0">0</option>
+                <option type="text" value="6000">5.000</option>
+                <option type="text" value="12000">10.000</option>
+                <option type="text" value="17000">15.000</option>
+                <option type="text" value="27000">25.000</option>
+                <option type="text" value="52000">50.000</option>
+                <option type="text" value="102000">100.000</option>
+            </select>
+        </form>
+        <form class="awal2">
+            <input type="checkbox" class="checkbox"  id="data" onclick="clikD()">
+            Paket Data<select id="dataH" class="d-none">
+                <option type="text" value="0">0</option>
+                <option type="text" value="15000">4 GB</option>
+                <option type="text" value="25000">6 GB</option>
+                <option type="text" value="50000">14 GB</option>
+                <option type="text" value="100000">45 GB</option>
+            </select>
+        </form>
+        <form class="awal3">
+            <input type="checkbox" class="checkbox"  id="listrik" onclick="clikL()">
+            Listrik<select id="listrikH" class="l-none">
+                <option type="text" value="0">0</option>
+                <option type="text" value="100000">1 Bulan</option>
+                <option type="text" value="200000">2 Bulan</option>
+            </select>
+        </form>
+        <form class="awal4">
+            <input type="checkbox" class="checkbox"  id="air" onclick="clikA()">
+            Air<select id="airH" class="a-none">
+                <option type="text" value="0">0</option>
+                <option type="text" value="100000">1 Bulan</option>
+                <option type="text" value="200000">2 Bulan</option>
+            </select>
+        </form>
+            <input class="button" type="submit" background-color="#06283D" onclick="jumlah()">
+        </div>
+            <div class="tabel">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pulsa</th>
+                        <th>Data</th>
+                        <th>Listrik</th>   
+                        <th>Air</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="totalnya">   
+                </tbody>
+            </table>
+        </div>
+
+    <!--footer-->
+  <footer>
+    <p>&copy; 2022, Lalu Ardita Arip</p><br>
+    <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>  
+  </footer>
+        
+</body>
+</html>
